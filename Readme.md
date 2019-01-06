@@ -1,5 +1,7 @@
 # 思维导图
-> [百度脑图客户端](https://github.com/NaoTu/DesktopNaotu) `十分感谢这个项目`
+## 致谢
+> [Github: 百度脑图](https://github.com/fex-team/kityminder)
+> [Github: 百度脑图离线客户端](https://github.com/NaoTu/DesktopNaotu)
 
 ## Java
 
