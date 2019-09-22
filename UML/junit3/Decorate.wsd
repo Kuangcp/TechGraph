@@ -1,0 +1,30 @@
+@startuml DecorateWithJunit
+
+note "Junit with Decorate Pattern" as Tip
+
+interface Test {
+
+}
+class TestCase {
+
+}
+
+class TestDecorate{
+
+}
+
+class TestSetUp{
+
+}
+
+class RepeatedTest{
+
+}
+
+Test <|-- TestDecorate
+Test <|-- TestCase
+
+TestDecorate <|-- TestSetUp
+TestDecorate <|-- RepeatedTest
+TestDecorate o-- Test
+@enduml
