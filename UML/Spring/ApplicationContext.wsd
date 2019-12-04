@@ -1,0 +1,29 @@
+@startuml ApplicationContext
+
+note "v1.1 ApplicationContext" as Tip
+
+interface BeanDefinitionRegistry {
+  BeanDefinition getBeanDefinition();
+  void registerBeanDefinition();
+}
+
+interface BeanFactory {
+  Object getBean();
+}
+
+class DefaultBeanFactory {
+}
+
+interface ApplicationContext {
+}
+
+class ClassPathXmlApplicationContenxt {
+
+}
+
+BeanFactory <|-- ApplicationContext : extend
+ApplicationContext <|..ClassPathXmlApplicationContenxt
+BeanFactory <|.. DefaultBeanFactory
+BeanDefinitionRegistry <|.. DefaultBeanFactory : implement
+
+@enduml

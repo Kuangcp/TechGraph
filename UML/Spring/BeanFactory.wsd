@@ -1,23 +1,25 @@
 @startuml BeanFactory
 
+note "v1.1 BeanDefinition Registry" as Tip
+
 interface BeanDefinitionRegistry {
-  BeanDefinition getBeanDefinition(String beanId);
-  void registerBeanDefinition(String beanId, BeanDefinition definition);
+  BeanDefinition getBeanDefinition();
+  void registerBeanDefinition();
 }
 
 interface BeanFactory {
-  Object getBean(String beanId);
+  Object getBean();
 }
 
 class DefaultBeanFactory {
 }
 
 class XMLBeanDefinitionReader {
-    BeanDefinitionRegistry registry;
+  BeanDefinitionRegistry registry;
 }
 
-BeanFactory <|-- DefaultBeanFactory : implement
-BeanDefinitionRegistry <|-- DefaultBeanFactory : implement
+BeanFactory <|.. DefaultBeanFactory : implement
+BeanDefinitionRegistry <|.. DefaultBeanFactory 
 XMLBeanDefinitionReader o-- BeanDefinitionRegistry : have >
 
 @enduml
