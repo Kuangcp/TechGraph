@@ -17,12 +17,12 @@ class DefaultBeanFactory {
 interface ApplicationContext {
 }
 
-class ClassPathXmlApplicationContenxt {
+class ClassPathXmlApplicationContext {
 
 }
 
 BeanFactory <|-- ApplicationContext : extend
-ApplicationContext <|..ClassPathXmlApplicationContenxt
+ApplicationContext <|..ClassPathXmlApplicationContext
 BeanFactory <|.. DefaultBeanFactory
 BeanDefinitionRegistry <|.. DefaultBeanFactory : implement
 
