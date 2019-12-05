@@ -1,0 +1,45 @@
+@startuml ConfigurableBeanFactory
+
+note "Learn Implements" as Mine
+
+interface BeanDefinitionRegistry {
+  BeanDefinition getBeanDefinition();
+  void registerBeanDefinition();
+}
+
+interface BeanFactory {
+  Object getBean();
+}
+
+class DefaultBeanFactory implements ConfigurableBeanFactory,BeanDefinitionRegistry {
+}
+
+interface ConfigurableBeanFactory extends BeanFactory {
+
+}
+interface ApplicationContext extends ConfigurableBeanFactory {
+}
+
+ApplicationContext o-- DefaultBeanFactory : have >
+
+
+note "Spring Implements" as Spring
+
+interface Resource {
+    InputStream getInputStream();
+}
+class ClassPathResource implements Resource{
+
+    
+}
+interface ResourceLoader extends Resource {
+    Resource getResource();
+    ClassLoader getClassLoader();
+}
+class DefaultResourceLoader implements ResourceLoader {
+    void setClassLoader();
+}
+class AbstractApplicationContext extends DefaultResourceLoader {
+
+}
+@enduml

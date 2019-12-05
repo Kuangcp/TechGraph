@@ -11,19 +11,13 @@ interface BeanFactory {
   Object getBean();
 }
 
-class DefaultBeanFactory {
+interface ApplicationContext extends BeanFactory {
 }
 
-interface ApplicationContext {
+class DefaultBeanFactory implements BeanFactory,BeanDefinitionRegistry {
 }
 
-class ClassPathXmlApplicationContext {
-
+class ClassPathXmlApplicationContext implements ApplicationContext {
 }
-
-BeanFactory <|-- ApplicationContext : extend
-ApplicationContext <|..ClassPathXmlApplicationContext
-BeanFactory <|.. DefaultBeanFactory
-BeanDefinitionRegistry <|.. DefaultBeanFactory : implement
 
 @enduml
