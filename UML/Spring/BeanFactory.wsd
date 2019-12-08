@@ -19,7 +19,7 @@ class XMLBeanDefinitionReader {
 }
 
 BeanFactory <|.. DefaultBeanFactory : implement
-BeanDefinitionRegistry <|.. DefaultBeanFactory 
+BeanDefinitionRegistry <|.. DefaultBeanFactory
 XMLBeanDefinitionReader o-- BeanDefinitionRegistry : have >
 
 @enduml

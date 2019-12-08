@@ -26,18 +26,16 @@ ApplicationContext o-- DefaultBeanFactory : have >
 note "Spring Implements" as Spring
 
 interface Resource {
-    InputStream getInputStream();
+  InputStream getInputStream();
 }
 class ClassPathResource implements Resource{
-
-    
 }
 interface ResourceLoader extends Resource {
-    Resource getResource();
-    ClassLoader getClassLoader();
+  Resource getResource();
+  ClassLoader getClassLoader();
 }
 class DefaultResourceLoader implements ResourceLoader {
-    void setClassLoader();
+  void setClassLoader();
 }
 class AbstractApplicationContext extends DefaultResourceLoader {
 

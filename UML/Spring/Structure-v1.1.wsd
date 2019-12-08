@@ -1,0 +1,66 @@
+@startuml Structure-v1.1
+
+note " v1.1 Structure" as Tip
+
+interface BeanDefinition {
+
+}
+
+class GenericBeanDefinition implements BeanDefinition {
+
+}
+
+class XMLBeanDefinitionReader {
+    BeanDefinitionRegistry registry;
+}
+interface BeanDefinitionRegistry {
+    BeanDefinition getBeanDefinition();
+    void registerBeanDefinition();
+}
+
+interface SingletonBeanRegistry{
+    void registrySingleton();
+    Object getSingleton();
+}
+
+class DefaultSingletonRegistry implements SingletonBeanRegistry {
+
+}
+
+interface BeanFactory {
+    Object getBean();
+}
+
+class DefaultBeanFactory extends DefaultSingletonRegistry implements ConfigurableBeanFactory,BeanDefinitionRegistry {
+}
+
+interface ConfigurableBeanFactory extends BeanFactory {
+    void setBeanClassloader();
+    ClassLoader getClassloader();
+}
+interface ApplicationContext extends ConfigurableBeanFactory {
+}
+interface Resource {
+
+}
+class ClassPathResource implements Resource {
+}
+class FileSystemResource implements Resource {
+}
+class URIResource implements Resource {
+}
+abstract class AbstractApplicationContext implements ApplicationContext {
+    abstrct Resource getResourceByPath();
+}
+class ClassPathXmlApplicationContext extends AbstractApplicationContext {
+}
+class FileSystemApplicationContext extends AbstractApplicationContext {
+}
+class URIApplicationContext extends AbstractApplicationContext {
+}
+
+BeanDefinitionRegistry o-- BeanDefinition : have >
+XMLBeanDefinitionReader o-- BeanDefinitionRegistry : have >
+ApplicationContext o-- DefaultBeanFactory : have >
+
+@enduml
