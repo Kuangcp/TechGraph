@@ -1,0 +1,28 @@
+@startuml TypeConverter
+
+note "Type Converter" as Tip 
+
+interface PropertyEditor {
+    Object getValue();
+    void setAsText(String text);
+}
+
+class PropertyEditorSupport implements PropertyEditor {
+
+}
+
+class CustomNumberEditor extends PropertyEditorSupport {
+
+}
+
+class CustomBooleanEditor extends PropertyEditorSupport {
+
+}
+
+interface TypeConverter {
+    <T> T convertIfNecessary(Object value, Class<T> type);
+}
+class SimpleTypeConverter implements TypeConverter {
+
+}
+@enduml
