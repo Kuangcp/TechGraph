@@ -1,0 +1,54 @@
+@startuml ClassReader
+
+note "Class Reader by custom abstract" as Tip 
+
+interface ClassMetadata {
+
+}
+interface AnnotationMetadata {
+
+}
+
+interface MetadataReader {
+    ClassMetadata getClassMetadata()
+    AnnotationMetadata getAnnotationMetadata()
+}
+MetadataReader o-- ClassMetadata
+MetadataReader o-- AnnotationMetadata
+
+class SimpleMetadataReader implements MetadataReader {
+
+}
+SimpleMetadataReader o-- Tip
+
+
+abstract class ClassVisitor {
+    void visit()
+    void visitField()
+    void visitMethod()
+    void visitAnnotation()
+}
+class ClassMetadataReadingVisitor extends ClassVisitor implements ClassMetadata {
+    void visit()
+}
+class AnnotationMetadataReadingVisitor extends ClassMetadataReadingVisitor implements AnnotationMetadata {
+    void visitAnnotation()
+}
+abstract class AnnotationVisitor {
+
+}
+class AnnotationAttributesReadingVisitor extends AnnotationVisitor {
+    void visit()
+    void visitEnd()
+}
+class AnnotationAttributes {
+    String getString()
+    Integer getNumber()
+    Boolean getBoolean()
+}
+
+AnnotationAttributesReadingVisitor o-- AnnotationAttributes : have >
+AnnotationMetadataReadingVisitor o-- AnnotationAttributesReadingVisitor : have >
+AnnotationMetadataReadingVisitor o-- AnnotationAttributes : have >
+
+@enduml
