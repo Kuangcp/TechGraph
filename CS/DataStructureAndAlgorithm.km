@@ -1,1 +1,1142 @@
-{"root":{"data":{"id":"br2amkn80go0","created":1546788120110,"text":"数据结构(左)与算法(右)","expandState":"expand"},"children":[{"data":{"id":"br2ao3fayqo0","created":1546788239354,"text":"复杂度分析","layout":null,"expandState":"expand"},"children":[{"data":{"id":"br2biso6hg80","created":1546790645235,"text":"时间复杂度","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2biuryh680","created":1546790649817,"text":"空间复杂度","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bj13j35s0","created":1546790663578,"text":"最好","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bj2vz91s0","created":1546790667475,"text":"最坏","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bj5qcg7k0","created":1546790673665,"text":"平均","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bj79kfa80","created":1546790677004,"text":"均摊","layout":null,"expandState":"expand"},"children":[]}]}]},{"data":{"id":"br2bjjr7b4w0","created":1546790704191,"text":"基本算法思想","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bjoo4rww0","created":1546790714890,"text":"贪心算法","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bjw3r09s0","created":1546790731071,"text":"分治算法","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bk0knvj40","created":1546790740801,"text":"动态规划","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bk24w33k0","created":1546790744201,"text":"回溯算法","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bk3lc1js0","created":1546790747372,"text":"枚举算法","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bkfr68pc0","created":1546790773847,"text":"排序","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bkxh1q6w0","created":1546790812416,"text":"O(n^2)","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bl8kyviw0","created":1546790836598,"text":"冒泡排序","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2blb0cmjk0","created":1546790841882,"text":"插入排序","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2blckzsow0","created":1546790845307,"text":"选择排序","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bldlfv340","created":1546790847511,"text":"希尔排序","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bl1jxfy80","created":1546790821298,"text":"O(n log n)","expandState":"expand","layout":null},"children":[{"data":{"id":"br2blggfr400","created":1546790853738,"text":"归并排序","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bli7dptc0","created":1546790857544,"text":"快速排序","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bljn91jk0","created":1546790860681,"text":"堆排序","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bl57nk400","created":1546790829263,"text":"O(n)","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bmh30qhs0","created":1546790933468,"text":"计数排序","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bmktel140","created":1546790941594,"text":"基数排序","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bmn2rmxc0","created":1546790946513,"text":"桶排序","layout":null,"expandState":"expand"},"children":[]}]}]},{"data":{"id":"br2bolkm7w80","created":1546791099967,"text":"搜索","expandState":"expand","layout":null},"children":[{"data":{"id":"br2boqiroo80","created":1546791110740,"text":"深度优先搜索","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2box99pao0","created":1546791125403,"text":"广度优先搜索","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bp2z2cvc0","created":1546791137846,"text":"A*启发式搜索","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bpglfstc0","created":1546791167497,"text":"查找","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bpig3to00","created":1546791171529,"text":"线性表查找","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bpksyq8w0","created":1546791176660,"text":"树结构查找","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bppkx5ow0","created":1546791187057,"text":"散列表查找","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2brs37t140","created":1546791349245,"text":"字符串匹配","expandState":"expand","layout":null},"children":[{"data":{"id":"br2brtyf9lk0","created":1546791353309,"text":"朴素","layout":null,"expandState":"expand","note":"预处理时间 O(0)\n匹配时间复杂度O(N*M)"},"children":[]},{"data":{"id":"br2brvybbio0","created":1546791357656,"text":"KMP","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2brxdrp2o0","created":1546791360767,"text":"Robin-Karp","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bs0mfk200","created":1546791367821,"text":"Boyer-Moore","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bs3ad4co0","created":1546791373622,"text":"AC自动机","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bs5rn06w0","created":1546791379020,"text":"Trie","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bs78ncog0","created":1546791382225,"text":"后缀数组","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bsd2utig0","created":1546791394936,"text":"数学基础","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bsh2hmpk0","created":1546791403621,"text":"数论","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bsim9r4w0","created":1546791406994,"text":"计算几何","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bskqro5c0","created":1546791411619,"text":"概率论分析","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bsndfv6w0","created":1546791417344,"text":"并查集","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bsro1e1s0","created":1546791426692,"text":"拓扑网络","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bsuerknc0","created":1546791432661,"text":"矩阵运算","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bswyrzi80","created":1546791438225,"text":"线性规划","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2btyzdc140","created":1546791520979,"text":"线性表","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bu0rb8oo0","created":1546791524845,"text":"数组","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bu20y2ao0","created":1546791527604,"text":"链表","expandState":"collapse","layout":null},"children":[{"data":{"id":"br2bu9nefxs0","created":1546791544199,"text":"单链表","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bubfv8pc0","created":1546791548097,"text":"双向链表","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2budaca000","created":1546791552117,"text":"循环链表","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2buf6em8w0","created":1546791556232,"text":"双向循环链表","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bui1aizs0","created":1546791562454,"text":"静态链表","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bu3kgo3k0","created":1546791530961,"text":"栈","expandState":"collapse","layout":null},"children":[{"data":{"id":"br2buo774dk0","created":1546791575871,"text":"顺序栈","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2buqir7ts0","created":1546791580924,"text":"链式栈","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2butwzl0w0","created":1546791588315,"text":"双向栈","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bu4v9s680","created":1546791533791,"text":"队列","expandState":"collapse","layout":null},"children":[{"data":{"id":"br2buxf81k80","created":1546791595948,"text":"普通队列","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bv01qceg0","created":1546791601662,"text":"双端队列","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bv1sg7yw0","created":1546791605455,"text":"阻塞队列","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bv3awc2o0","created":1546791608747,"text":"并发队列","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bv5hnqf40","created":1546791613509,"text":"阻塞并发队列","layout":null,"expandState":"expand"},"children":[]}]}]},{"data":{"id":"br2bvc6ln1k0","created":1546791628078,"text":"散列表","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bveelxtc0","created":1546791632916,"text":"散列函数","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bvkx0fmw0","created":1546791647089,"text":"冲突解决","layout":null,"expandState":"collapse"},"children":[{"data":{"id":"br2bvrtb1j40","created":1546791662103,"text":"链表法","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bvtcscso0","created":1546791665457,"text":"开放寻址","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bvv289i80","created":1546791669173,"text":"其他","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bvmyrwk80","created":1546791651549,"text":"动态扩容","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bvpca1ow0","created":1546791656720,"text":"位图","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bw1x4d5s0","created":1546791684101,"text":"树","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bwf1hgwg0","created":1546791712663,"text":"二叉树","layout":null,"expandState":"expand"},"children":[{"data":{"id":"br2bwoy0qco0","created":1546791734222,"text":"平衡二叉树","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bwt8ofz40","created":1546791743573,"text":"二叉查找树","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bwxws3co0","created":1546791753738,"text":"平衡二叉查找树","layout":null,"expandState":"expand"},"children":[{"data":{"id":"br2bx1yvfeo0","created":1546791762571,"text":"AVL树","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bx48mexk0","created":1546791767514,"text":"红黑树","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bx7optao0","created":1546791775018,"text":"完全平衡二叉树","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bxao0nrc0","created":1546791781506,"text":"满二叉树","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bxmzuf0o0","created":1546791808342,"text":"多路查找树","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bxqs0tcw0","created":1546791816577,"text":"B 树","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bxsmj13c0","created":1546791820598,"text":"B+ 树","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bxvjs7iw0","created":1546791826962,"text":"2-3 树","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bxxk25sg0","created":1546791831333,"text":"2-3-4 树","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2by5vw64w0","created":1546791849462,"text":"堆","expandState":"expand","layout":null,"note":"动态数据结构，例如CAT等性能检测框架就是采样并存入堆得到T99"},"children":[{"data":{"id":"br2by8pd69s0","created":1546791855598,"text":"小顶堆","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bydn8hq00","created":1546791866353,"text":"大顶堆","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bygbtfd40","created":1546791872193,"text":"优先级队列","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2byicwekw0","created":1546791876612,"text":"斐波那契堆","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bysuq08w0","created":1546791899458,"text":"二顶堆","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2byz2eo2g0","created":1546791912983,"text":"其他","layout":null,"expandState":"expand"},"children":[{"data":{"id":"br2byzv82wo0","created":1546791914725,"text":"树状数组","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bz2sm6gw0","created":1546791921098,"text":"线段树","layout":null,"expandState":"expand"},"children":[]}]}]},{"data":{"id":"br2bz90j9zk0","created":1546791934638,"text":"图","expandState":"expand","layout":null},"children":[{"data":{"id":"br2bzap7r4w0","created":1546791938307,"text":"图的存储","layout":null,"expandState":"collapse"},"children":[{"data":{"id":"br2bzd4mglc0","created":1546791943592,"text":"邻接矩阵","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bzg8yxhs0","created":1546791950385,"text":"邻接表","layout":null,"expandState":"expand"},"children":[]}]},{"data":{"id":"br2bzpqrlwg0","created":1546791971052,"text":"拓扑排序","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bzshvteg0","created":1546791977045,"text":"最短路径","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bzty56ww0","created":1546791980205,"text":"关键路径","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bzvgenaw0","created":1546791983487,"text":"最小生成树","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bzxpg1k00","created":1546791988387,"text":"二分图","layout":null,"expandState":"expand"},"children":[]},{"data":{"id":"br2bzz65fm00","created":1546791991574,"text":"最大流","layout":null,"expandState":"expand"},"children":[]}]}]},"template":"default","theme":"classic-compact","version":"1.4.43"}
+{
+    "root": {
+        "data": {
+            "id": "br2amkn80go0",
+            "created": 1546788120110,
+            "text": "数据结构(左)与算法(右)",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "br2ao3fayqo0",
+                    "created": 1546788239354,
+                    "text": "复杂度分析",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2biso6hg80",
+                            "created": 1546790645235,
+                            "text": "时间复杂度",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2biuryh680",
+                            "created": 1546790649817,
+                            "text": "空间复杂度",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2bj13j35s0",
+                                    "created": 1546790663578,
+                                    "text": "最好",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bj2vz91s0",
+                                    "created": 1546790667475,
+                                    "text": "最坏",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bj5qcg7k0",
+                                    "created": 1546790673665,
+                                    "text": "平均",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bj79kfa80",
+                                    "created": 1546790677004,
+                                    "text": "均摊",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2bjjr7b4w0",
+                    "created": 1546790704191,
+                    "text": "基本算法思想",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2bjoo4rww0",
+                            "created": 1546790714890,
+                            "text": "贪心算法",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bjw3r09s0",
+                            "created": 1546790731071,
+                            "text": "分治算法",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bk0knvj40",
+                            "created": 1546790740801,
+                            "text": "动态规划",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bk24w33k0",
+                            "created": 1546790744201,
+                            "text": "回溯算法",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bk3lc1js0",
+                            "created": 1546790747372,
+                            "text": "枚举算法",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2bkfr68pc0",
+                    "created": 1546790773847,
+                    "text": "排序",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2bkxh1q6w0",
+                            "created": 1546790812416,
+                            "text": "O(n^2)",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2bl8kyviw0",
+                                    "created": 1546790836598,
+                                    "text": "冒泡排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2blb0cmjk0",
+                                    "created": 1546790841882,
+                                    "text": "插入排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2blckzsow0",
+                                    "created": 1546790845307,
+                                    "text": "选择排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bldlfv340",
+                                    "created": 1546790847511,
+                                    "text": "希尔排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "br2bl1jxfy80",
+                            "created": 1546790821298,
+                            "text": "O(n log n)",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2blggfr400",
+                                    "created": 1546790853738,
+                                    "text": "归并排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bli7dptc0",
+                                    "created": 1546790857544,
+                                    "text": "快速排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bljn91jk0",
+                                    "created": 1546790860681,
+                                    "text": "堆排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "br2bl57nk400",
+                            "created": 1546790829263,
+                            "text": "O(n)",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2bmh30qhs0",
+                                    "created": 1546790933468,
+                                    "text": "计数排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bmktel140",
+                                    "created": 1546790941594,
+                                    "text": "基数排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bmn2rmxc0",
+                                    "created": 1546790946513,
+                                    "text": "桶排序",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2bolkm7w80",
+                    "created": 1546791099967,
+                    "text": "搜索",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2boqiroo80",
+                            "created": 1546791110740,
+                            "text": "深度优先搜索",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2box99pao0",
+                            "created": 1546791125403,
+                            "text": "广度优先搜索",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bp2z2cvc0",
+                            "created": 1546791137846,
+                            "text": "A*启发式搜索",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2bpglfstc0",
+                    "created": 1546791167497,
+                    "text": "查找",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2bpig3to00",
+                            "created": 1546791171529,
+                            "text": "线性表查找",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bpksyq8w0",
+                            "created": 1546791176660,
+                            "text": "树结构查找",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bppkx5ow0",
+                            "created": 1546791187057,
+                            "text": "散列表查找",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2brs37t140",
+                    "created": 1546791349245,
+                    "text": "字符串匹配",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2brtyf9lk0",
+                            "created": 1546791353309,
+                            "text": "朴素",
+                            "layout": null,
+                            "expandState": "expand",
+                            "note": "预处理时间 O(0)\n匹配时间复杂度O(N*M)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2brvybbio0",
+                            "created": 1546791357656,
+                            "text": "KMP",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2brxdrp2o0",
+                            "created": 1546791360767,
+                            "text": "Robin-Karp",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bs0mfk200",
+                            "created": 1546791367821,
+                            "text": "Boyer-Moore",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bs3ad4co0",
+                            "created": 1546791373622,
+                            "text": "AC自动机",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bs5rn06w0",
+                            "created": 1546791379020,
+                            "text": "Trie",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bs78ncog0",
+                            "created": 1546791382225,
+                            "text": "后缀数组",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2bsd2utig0",
+                    "created": 1546791394936,
+                    "text": "数学基础",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2bsh2hmpk0",
+                            "created": 1546791403621,
+                            "text": "数论",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bsim9r4w0",
+                            "created": 1546791406994,
+                            "text": "计算几何",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bskqro5c0",
+                            "created": 1546791411619,
+                            "text": "概率论分析",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bsndfv6w0",
+                            "created": 1546791417344,
+                            "text": "并查集",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bsro1e1s0",
+                            "created": 1546791426692,
+                            "text": "拓扑网络",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bsuerknc0",
+                            "created": 1546791432661,
+                            "text": "矩阵运算",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bswyrzi80",
+                            "created": 1546791438225,
+                            "text": "线性规划",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2btyzdc140",
+                    "created": 1546791520979,
+                    "text": "线性表",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2bu0rb8oo0",
+                            "created": 1546791524845,
+                            "text": "数组",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bu20y2ao0",
+                            "created": 1546791527604,
+                            "text": "链表",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2bu9nefxs0",
+                                    "created": 1546791544199,
+                                    "text": "单链表",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bubfv8pc0",
+                                    "created": 1546791548097,
+                                    "text": "双向链表",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2budaca000",
+                                    "created": 1546791552117,
+                                    "text": "循环链表",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2buf6em8w0",
+                                    "created": 1546791556232,
+                                    "text": "双向循环链表",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bui1aizs0",
+                                    "created": 1546791562454,
+                                    "text": "静态链表",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "br2bu3kgo3k0",
+                            "created": 1546791530961,
+                            "text": "栈",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2buo774dk0",
+                                    "created": 1546791575871,
+                                    "text": "顺序栈",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2buqir7ts0",
+                                    "created": 1546791580924,
+                                    "text": "链式栈",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2butwzl0w0",
+                                    "created": 1546791588315,
+                                    "text": "双向栈",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "br2bu4v9s680",
+                            "created": 1546791533791,
+                            "text": "队列",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2buxf81k80",
+                                    "created": 1546791595948,
+                                    "text": "普通队列",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bv01qceg0",
+                                    "created": 1546791601662,
+                                    "text": "双端队列",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bv1sg7yw0",
+                                    "created": 1546791605455,
+                                    "text": "阻塞队列",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bv3awc2o0",
+                                    "created": 1546791608747,
+                                    "text": "并发队列",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bv5hnqf40",
+                                    "created": 1546791613509,
+                                    "text": "阻塞并发队列",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2bvc6ln1k0",
+                    "created": 1546791628078,
+                    "text": "散列表",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2bveelxtc0",
+                            "created": 1546791632916,
+                            "text": "散列函数",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bvkx0fmw0",
+                            "created": 1546791647089,
+                            "text": "冲突解决",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2bvrtb1j40",
+                                    "created": 1546791662103,
+                                    "text": "链表法",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bvtcscso0",
+                                    "created": 1546791665457,
+                                    "text": "开放寻址",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bvv289i80",
+                                    "created": 1546791669173,
+                                    "text": "其他",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "br2bvmyrwk80",
+                            "created": 1546791651549,
+                            "text": "动态扩容",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bvpca1ow0",
+                            "created": 1546791656720,
+                            "text": "位图",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2bw1x4d5s0",
+                    "created": 1546791684101,
+                    "text": "树",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2bwf1hgwg0",
+                            "created": 1546791712663,
+                            "text": "二叉树",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2bwoy0qco0",
+                                    "created": 1546791734222,
+                                    "text": "平衡二叉树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bwt8ofz40",
+                                    "created": 1546791743573,
+                                    "text": "二叉查找树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bwxws3co0",
+                                    "created": 1546791753738,
+                                    "text": "平衡二叉查找树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "br2bx1yvfeo0",
+                                            "created": 1546791762571,
+                                            "text": "AVL树",
+                                            "layout": null,
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "br2bx48mexk0",
+                                            "created": 1546791767514,
+                                            "text": "红黑树",
+                                            "layout": null,
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bx7optao0",
+                                    "created": 1546791775018,
+                                    "text": "完全平衡二叉树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bxao0nrc0",
+                                    "created": 1546791781506,
+                                    "text": "满二叉树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "br2bxmzuf0o0",
+                            "created": 1546791808342,
+                            "text": "多路查找树",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2bxqs0tcw0",
+                                    "created": 1546791816577,
+                                    "text": "B 树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bxsmj13c0",
+                                    "created": 1546791820598,
+                                    "text": "B+ 树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bxvjs7iw0",
+                                    "created": 1546791826962,
+                                    "text": "2-3 树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bxxk25sg0",
+                                    "created": 1546791831333,
+                                    "text": "2-3-4 树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "br2by5vw64w0",
+                            "created": 1546791849462,
+                            "text": "堆",
+                            "expandState": "expand",
+                            "layout": null,
+                            "note": "动态数据结构，例如CAT等性能检测框架就是采样并存入堆得到T99"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2by8pd69s0",
+                                    "created": 1546791855598,
+                                    "text": "小顶堆",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bydn8hq00",
+                                    "created": 1546791866353,
+                                    "text": "大顶堆",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bygbtfd40",
+                                    "created": 1546791872193,
+                                    "text": "优先级队列",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2byicwekw0",
+                                    "created": 1546791876612,
+                                    "text": "斐波那契堆",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bysuq08w0",
+                                    "created": 1546791899458,
+                                    "text": "二顶堆",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "br2byz2eo2g0",
+                            "created": 1546791912983,
+                            "text": "其他",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2byzv82wo0",
+                                    "created": 1546791914725,
+                                    "text": "树状数组",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bz2sm6gw0",
+                                    "created": 1546791921098,
+                                    "text": "线段树",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "br2bz90j9zk0",
+                    "created": 1546791934638,
+                    "text": "图",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "br2bzap7r4w0",
+                            "created": 1546791938307,
+                            "text": "图的存储",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "br2bzd4mglc0",
+                                    "created": 1546791943592,
+                                    "text": "邻接矩阵",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "br2bzg8yxhs0",
+                                    "created": 1546791950385,
+                                    "text": "邻接表",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "br2bzpqrlwg0",
+                            "created": 1546791971052,
+                            "text": "拓扑排序",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bzshvteg0",
+                            "created": 1546791977045,
+                            "text": "最短路径",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bzty56ww0",
+                            "created": 1546791980205,
+                            "text": "关键路径",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bzvgenaw0",
+                            "created": 1546791983487,
+                            "text": "最小生成树",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bzxpg1k00",
+                            "created": 1546791988387,
+                            "text": "二分图",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "br2bzz65fm00",
+                            "created": 1546791991574,
+                            "text": "最大流",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}
