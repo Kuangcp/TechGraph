@@ -1,1 +1,278 @@
-{"root":{"data":{"text":"NetworkModel"},"children":[{"data":{"id":"bspiiykrcqg0","created":1552802443302,"text":"OSI","expandState":"expand"},"children":[{"data":{"id":"bspijkhq4iw0","created":1552802491008,"text":"应用层","expandState":"collapse"},"children":[{"data":{"id":"bspikmxgp1c0","created":1552802574677,"text":"为应用程序提供服务"},"children":[]}]},{"data":{"id":"bspijn5ebgo0","created":1552802496793,"text":"表示层","expandState":"collapse"},"children":[{"data":{"id":"bspikuv2p8o0","created":1552802591947,"text":"数据格式转换,数据加密"},"children":[]}]},{"data":{"id":"bspijpwjcww0","created":1552802502787,"text":"回话层","expandState":"collapse"},"children":[{"data":{"id":"bspil1av8fs0","created":1552802605963,"text":"建立,管理,维护回话"},"children":[]}]},{"data":{"id":"bspijrjtv9s0","created":1552802506373,"text":"运输层","expandState":"collapse"},"children":[{"data":{"id":"bspil78jiuw0","created":1552802618883,"text":"建立,管理,维护 端到端的连接"},"children":[]}]},{"data":{"id":"bspiju33qao0","created":1552802511891,"text":"网络层","expandState":"collapse"},"children":[{"data":{"id":"bspile7uneg0","created":1552802634078,"text":"IP选址 路由选择"},"children":[]}]},{"data":{"id":"bspijxgtxbs0","created":1552802519252,"text":"数据链路层","expandState":"collapse"},"children":[{"data":{"id":"bspiljiteao0","created":1552802645625,"text":"提供介质访问和链路管理","layout_right_offset":{"x":-2.4999999006588496,"y":0}},"children":[]}]},{"data":{"id":"bspijzqkwog0","created":1552802524195,"text":"物理层","expandState":"collapse"},"children":[{"data":{"id":"bspilxfn1g80","created":1552802675908,"text":"物理设备"},"children":[]}]}]},{"data":{"id":"bspij7q0qoo0","created":1552802463211,"text":"TCP/IP"},"children":[{"data":{"id":"bspik2ff65k0","created":1552802530051,"text":"应用层","expandState":"expand"},"children":[{"data":{"id":"bspimk1cx0g0","created":1552802725111,"text":"应用程序"},"children":[]},{"data":{"id":"bspioyrgu2w0","created":1552802913893,"text":"HTTP, Telnet,FTP,TFTP,DNS,SMTP"},"children":[]}]},{"data":{"id":"bspik4d6xwo0","created":1552802534269,"text":"运输层","expandState":"expand"},"children":[{"data":{"id":"bspimpuy3s00","created":1552802737784,"text":"四层交换机,四层路由器"},"children":[]},{"data":{"id":"bspipp141sg0","created":1552802971072,"text":"TCP, UDP"},"children":[]}]},{"data":{"id":"bspik6xxesw0","created":1552802539877,"text":"网际层","expandState":"expand"},"children":[{"data":{"id":"bspimwj9lug0","created":1552802752315,"text":"路由器, 三层交换机"},"children":[]},{"data":{"id":"bspipu2zro80","created":1552802982070,"text":"IP, ICMP, RIP, IGMP"},"children":[]}]},{"data":{"id":"bspikcorxkg0","created":1552802552384,"text":"网络接口层","note":"为了方便学习, 将网络接口层拆分为 OSI 对应的 数据链路层 物理层","expandState":"expand"},"children":[{"data":{"id":"bspinspsco00","created":1552802822366,"text":"数据链路层","expandState":"expand"},"children":[{"data":{"id":"bspin5kagu80","created":1552802771968,"text":"网桥,以太网交换机,网卡"},"children":[]},{"data":{"id":"bspiq054o940","created":1552802995260,"text":"ARP, RARP, IEEE802.3, PPP, CSMA/CD"},"children":[]}]},{"data":{"id":"bspinvemy000","created":1552802828222,"text":"物理层","expandState":"expand"},"children":[{"data":{"id":"bspiojr6h400","created":1552802881224,"text":"中继器, 集线器,双绞线"},"children":[]},{"data":{"id":"bspiqcndc1s0","created":1552803022484,"text":"FE自协商 Manchester, MLT-5,4A,PAM5"},"children":[]}]}]}]}]},"template":"default","theme":"classic-compact","version":"1.4.43"}
+{
+    "root": {
+        "data": {
+            "text": "Network"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bspiiykrcqg0",
+                    "created": 1552802443302,
+                    "text": "OSI",
+                    "expandState": "expand",
+                    "note": "七层模型"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bspijkhq4iw0",
+                            "created": 1552802491008,
+                            "text": "应用层",
+                            "expandState": "expand",
+                            "note": "为应用程序提供服务"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bspijn5ebgo0",
+                            "created": 1552802496793,
+                            "text": "表示层",
+                            "expandState": "expand",
+                            "note": "数据格式转换,数据加密"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bspijpwjcww0",
+                            "created": 1552802502787,
+                            "text": "会话层",
+                            "expandState": "expand",
+                            "note": "建立,管理,维护回话"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bspijrjtv9s0",
+                            "created": 1552802506373,
+                            "text": "传输层",
+                            "expandState": "expand",
+                            "note": "建立,管理,维护 端到端的连接"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bspiju33qao0",
+                            "created": 1552802511891,
+                            "text": "网络层",
+                            "expandState": "expand",
+                            "note": "IP选址 路由选择"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bspijxgtxbs0",
+                            "created": 1552802519252,
+                            "text": "数据链路层",
+                            "expandState": "expand",
+                            "note": "提供介质访问和链路管理"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bspijzqkwog0",
+                            "created": 1552802524195,
+                            "text": "物理层",
+                            "expandState": "expand",
+                            "note": "物理设备 光纤 同轴电缆 集线器 等"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bspij7q0qoo0",
+                    "created": 1552802463211,
+                    "text": "TCP/IP",
+                    "note": "四层模型"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bspik2ff65k0",
+                            "created": 1552802530051,
+                            "text": "应用层",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bspimk1cx0g0",
+                                    "created": 1552802725111,
+                                    "text": "应用程序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bspioyrgu2w0",
+                                    "created": 1552802913893,
+                                    "text": "HTTP, Telnet,FTP,TFTP,DNS,SMTP"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bspik4d6xwo0",
+                            "created": 1552802534269,
+                            "text": "运输层",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bspimpuy3s00",
+                                    "created": 1552802737784,
+                                    "text": "四层交换机,四层路由器"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bspipp141sg0",
+                                    "created": 1552802971072,
+                                    "text": "TCP, UDP，KCP"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bspik6xxesw0",
+                            "created": 1552802539877,
+                            "text": "网际层",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bspimwj9lug0",
+                                    "created": 1552802752315,
+                                    "text": "路由器, 三层交换机"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bspipu2zro80",
+                                    "created": 1552802982070,
+                                    "text": "IP, ICMP, RIP, IGMP"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bspikcorxkg0",
+                            "created": 1552802552384,
+                            "text": "网络接口层",
+                            "note": "为了方便学习, 将网络接口层拆分为 OSI 对应的 数据链路层 物理层",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bspinspsco00",
+                                    "created": 1552802822366,
+                                    "text": "数据链路层",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bspin5kagu80",
+                                            "created": 1552802771968,
+                                            "text": "网桥,以太网交换机,网卡"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bspiq054o940",
+                                            "created": 1552802995260,
+                                            "text": "ARP, RARP, IEEE802.3, PPP, CSMA/CD"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bspinvemy000",
+                                    "created": 1552802828222,
+                                    "text": "物理层",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bspiojr6h400",
+                                            "created": 1552802881224,
+                                            "text": "中继器, 集线器,双绞线"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bspiqcndc1s0",
+                                            "created": 1552803022484,
+                                            "text": "FE自协商 Manchester, MLT-5,4A,PAM5"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c34xydw313k0",
+                    "created": 1590930952500,
+                    "text": "代理"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c34xyfd0u7s0",
+                            "created": 1590930955701,
+                            "text": "正向代理",
+                            "note": "隐藏 客户端 地址, 去访问地址明确的服务端"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c34xyj1q02o0",
+                            "created": 1590930963725,
+                            "text": "反向代理"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c34xym9hpi00",
+                            "created": 1590930970725,
+                            "text": "透明代理"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}

@@ -1,1 +1,223 @@
-{"root":{"data":{"id":"brk5kvg9pmw0","created":1548601960576,"text":"软件开发流程","note":"来自 知乎用户 https://www.zhihu.com/people/loonggg/activities\n","expandState":"expand"},"children":[{"data":{"id":"brk5m7l485s0","created":1548602065355,"text":"产品需求确认","expandState":"expand"},"children":[{"data":{"id":"brk5nxi1ers0","created":1548602200129,"text":"产品经理对接需求, 了解需求并画原型图","expandState":"expand"},"children":[]},{"data":{"id":"brk5o88n56g0","created":1548602223506,"text":"需求确认以及原型沟通确认会(产品经理,UI,研发,测试等人员)","expandState":"expand"},"children":[{"data":{"id":"brk5os85oyg0","created":1548602267012,"text":"在沟通确认的过程中, 积极帮助产品经理完善和寻找需求不严谨或者需求不对的地方","expandState":"expand"},"children":[]}]}]},{"data":{"id":"brk5mbe6ssg0","created":1548602073643,"text":"开发规划","expandState":"expand"},"children":[{"data":{"id":"brk5q48i6t40","created":1548602371519,"text":"项目负责人和开发人员, 根据需求和功能点,结合前端和后台讨论制定开发计划和周期","expandState":"expand"},"children":[{"data":{"id":"brk5qzfxsf40","created":1548602439448,"text":"前端开发人员评估开发周期, 并确定下来(具体到每天开发哪些功能,都列为表格,统一提交)","expandState":"expand"},"children":[]},{"data":{"id":"brk5rqsr54w0","created":1548602498996,"text":"后端人员也一样","expandState":"expand"},"children":[]}]},{"data":{"id":"brk5qmmv15c0","created":1548602411569,"text":"项目负责人和管理者根据提交的开发周期商讨, 并做出最后的确认和调整","expandState":"expand"},"children":[]}]},{"data":{"id":"brk5mfbmjhc0","created":1548602082195,"text":"产品研发","expandState":"expand"},"children":[{"data":{"id":"brk5s6holig0","created":1548602533156,"text":"每天前端和后端的开发人员根据自己制定的计划表,开发对应的功能点","expandState":"expand"},"children":[{"data":{"id":"brk5sp6c7w00","created":1548602573829,"text":"如果遇到困难,或者每天没有按时完成任务,必须注明理由,大家一起积极配合,寻找解决办法","layout_right_offset":{"x":231,"y":-1},"expandState":"expand"},"children":[]}]},{"data":{"id":"brk5tedzky00","created":1548602628711,"text":"开发人员在开发完每一个功能模块的时候, 必须自己亲自按照完成的流程测试一遍","expandState":"expand"},"children":[]}]},{"data":{"id":"brk5mgzwma80","created":1548602085840,"text":"测试","expandState":"expand"},"children":[{"data":{"id":"brk5u0o7dzs0","created":1548602677218,"text":"项目完成后, 大家集中一个时间段, 大家统一体验测试, 找出其中的BUG和逻辑不合理的地方","expandState":"expand"},"children":[]}]},{"data":{"id":"brk5mhyn4h40","created":1548602087941,"text":"产品发布","expandState":"expand"},"children":[{"data":{"id":"brk5upgl4e80","created":1548602731176,"text":"发布前检查","expandState":"expand"},"children":[{"data":{"id":"brk5use0yso0","created":1548602737552,"text":"前端检查代码, 是否代码切换到正式环境(避免测试服务器URL上传)","expandState":"expand"},"children":[]},{"data":{"id":"brk5uyflofk0","created":1548602750708,"text":"后端检查发布的环境是否为正式环境","expandState":"expand"},"children":[]},{"data":{"id":"brk5vpalt600","created":1548602809179,"text":"负责人确定发布版本号","expandState":"expand"},"children":[]}]},{"data":{"id":"brk5vx91eg00","created":1548602826498,"text":"发布后测试验证","expandState":"expand"},"children":[{"data":{"id":"brk5w0giy280","created":1548602833482,"text":"由于Demo定理的存在,发布后需要严谨的测试","expandState":"expand"},"children":[]},{"data":{"id":"brk5wbrb2n40","created":1548602858078,"text":"把整个业务流程走一遍","expandState":"expand"},"children":[]}]},{"data":{"id":"brk5wlajspk0","created":1548602878833,"text":"发布后代码留存记档","expandState":"expand"},"children":[{"data":{"id":"brk5ww76gpk0","created":1548602902573,"text":"后端代码和前端代码 将该次发布的代码打包记录下来,命名则按发布日期和版本号来, 如果使用了 Git 则简单不过的是打个tag即可","expandState":"expand"},"children":[]}]}]}]},"template":"right","theme":"classic","version":"1.4.43"}
+{
+    "root": {
+        "data": {
+            "id": "brk5kvg9pmw0",
+            "created": 1548601960576,
+            "text": "软件开发流程",
+            "note": "来自 知乎用户 https://www.zhihu.com/people/loonggg/activities\n",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "brk5m7l485s0",
+                    "created": 1548602065355,
+                    "text": "产品需求确认",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "brk5nxi1ers0",
+                            "created": 1548602200129,
+                            "text": "产品经理对接需求, 了解需求并画原型图",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "brk5o88n56g0",
+                            "created": 1548602223506,
+                            "text": "需求确认以及原型沟通确认会(产品经理,UI,研发,测试等人员)",
+                            "expandState": "expand",
+                            "note": "在沟通确认的过程中, 积极帮助产品经理完善和寻找需求不严谨或者需求不对的地方"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "brk5mbe6ssg0",
+                    "created": 1548602073643,
+                    "text": "开发规划",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "brk5q48i6t40",
+                            "created": 1548602371519,
+                            "text": "项目负责人和开发人员, 根据需求和功能点,讨论并制定开发计划和周期",
+                            "expandState": "expand",
+                            "note": "评估开发周期，细化工作任务到每个工时"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "brk5qmmv15c0",
+                            "created": 1548602411569,
+                            "text": "项目负责人和管理者根据提交的开发周期商讨, 并做出最后的确认和调整",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "brk5mfbmjhc0",
+                    "created": 1548602082195,
+                    "text": "产品研发",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "brk5s6holig0",
+                            "created": 1548602533156,
+                            "text": "每天前端和后端的开发人员根据自己制定的计划表,开发对应的功能点",
+                            "expandState": "expand",
+                            "note": "如果遇到困难,或者每天没有按时完成任务,必须注明理由,大家一起积极配合,寻找解决办法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "brk5tedzky00",
+                            "created": 1548602628711,
+                            "text": "开发人员在开发完每一个功能模块 开发业务上的自测和单元测试",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "brk5mgzwma80",
+                    "created": 1548602085840,
+                    "text": "测试",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c34y6y2w28o0",
+                            "created": 1590931623361,
+                            "text": "测试人员按测试计划和验收计划执行"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "brk5u0o7dzs0",
+                            "created": 1548602677218,
+                            "text": "项目完成后, 大家集中一个时间段内测，找出其中的BUG",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "brk5mhyn4h40",
+                    "created": 1548602087941,
+                    "text": "产品发布",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "brk5upgl4e80",
+                            "created": 1548602731176,
+                            "text": "发布前检查",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "brk5use0yso0",
+                                    "created": 1548602737552,
+                                    "text": "前端检查代码, 是否代码切换到正式环境(避免测试服务器URL上传)",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "brk5uyflofk0",
+                                    "created": 1548602750708,
+                                    "text": "后端检查发布的环境是否为正式环境",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "brk5vpalt600",
+                                    "created": 1548602809179,
+                                    "text": "负责人确定发布版本号",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "brk5vx91eg00",
+                            "created": 1548602826498,
+                            "text": "发布后测试验证",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "brk5w0giy280",
+                                    "created": 1548602833482,
+                                    "text": "由于Demo定理的存在, 发布后需要严谨的测试",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "brk5wbrb2n40",
+                                    "created": 1548602858078,
+                                    "text": "业务流程的完整验证",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "brk5wlajspk0",
+                            "created": 1548602878833,
+                            "text": "发布后代码留存记档",
+                            "expandState": "expand",
+                            "note": "后端代码和前端代码 将该次发布的代码打包记录下来,命名则按发布日期和版本号\n\n如果使用了 Git 则记录对应提交hash值"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c34y9kx3pk00",
+                            "created": 1590931829806,
+                            "text": "回滚预案的准备和执行"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
