@@ -1,0 +1,13 @@
+{
+    "root": {
+        "data": {
+            "id": "c35v3aewbbc0",
+            "created": 1591024433378,
+            "text": "MySQL Lock"
+        },
+        "children": []
+    },
+    "template": "right",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}
