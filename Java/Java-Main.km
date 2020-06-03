@@ -36,6 +36,14 @@
                             "text": "用户输入输出"
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c37lqbf2nc00",
+                            "created": 1591201146756,
+                            "text": "枚举"
+                        },
+                        "children": []
                     }
                 ]
             },
@@ -210,7 +218,53 @@
                     "created": 1516155130001,
                     "text": "类加载"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "c37li7y6js80",
+                            "created": 1591200512291,
+                            "text": "双亲委派模型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c37llztw3k80",
+                                    "created": 1591200808074,
+                                    "text": "BootStrap ClassLoader",
+                                    "note": "(启动类加载器)：一般负责加载系统的核心类，如，`rt.jar` 中的Java类"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c37lm39gvpk0",
+                                    "created": 1591200815546,
+                                    "text": "Extendsion ClassLoader",
+                                    "note": "(扩展类加载器)：用于加载 `%JAVA_HOME%/lib/ext/*.jar` 中的Java类"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c37lm68d6e00",
+                                    "created": 1591200822010,
+                                    "text": "App ClassLoader",
+                                    "note": "(应用类加载器，系统类加载器)：用于加载用户程序的类"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c37lm9c22xc0",
+                                    "created": 1591200828763,
+                                    "text": "Custom ClassLoader",
+                                    "note": "加载一些特殊途径的类，一般是用户类"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "data": {
@@ -228,14 +282,6 @@
                         "children": [
                             {
                                 "data": {
-                                    "id": "bupo79r2y2w0",
-                                    "created": 1560130770799,
-                                    "text": "Ant"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
                                     "id": "bioo7k8wnyw0",
                                     "created": 1516155332407,
                                     "text": "Maven"
@@ -249,6 +295,14 @@
                                     "text": "Gradle"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bupo79r2y2w0",
+                                    "created": 1560130770799,
+                                    "text": "Ant"
+                                },
+                                "children": []
                             }
                         ]
                     },
@@ -256,7 +310,8 @@
                         "data": {
                             "id": "bioo7qgivoo0",
                             "created": 1516155345928,
-                            "text": "VCS"
+                            "text": "VCS",
+                            "note": "优先使用 Git SVN"
                         },
                         "children": [
                             {
@@ -274,6 +329,30 @@
                                     "text": "SVN"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c37ll18gplk0",
+                                    "created": 1591200732768,
+                                    "text": "Mercurial"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c37ll3j19ug0",
+                                    "created": 1591200737760,
+                                    "text": "CVS"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c37ll5kzag00",
+                                    "created": 1591200742232,
+                                    "text": "PerForce"
+                                },
+                                "children": []
                             }
                         ]
                     }
@@ -283,7 +362,8 @@
                 "data": {
                     "id": "bioo87uj4xk0",
                     "created": 1516155383780,
-                    "text": "JVM多语言"
+                    "text": "JVM多语言",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -324,21 +404,24 @@
                 "data": {
                     "id": "bjwihzu9xds0",
                     "created": 1520607861426,
-                    "text": "异常"
+                    "text": "异常",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "bupn8xl1nyo0",
                             "created": 1560128079931,
-                            "text": "Throwable"
+                            "text": "Throwable",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "bupn98sp8a80",
                                     "created": 1560128104338,
-                                    "text": "Error"
+                                    "text": "Error",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -364,7 +447,8 @@
                                     "id": "bupn9acswyg0",
                                     "created": 1560128107730,
                                     "text": "Exception",
-                                    "note": "fillInStackTrace 使用空实现重写该方法可以避免生成调用栈的损耗（常用于业务异常）"
+                                    "note": "fillInStackTrace 使用空实现重写该方法可以避免生成调用栈的损耗（常用于业务异常）",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -417,7 +501,8 @@
             },
             {
                 "data": {
-                    "text": "集合"
+                    "text": "集合",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -426,7 +511,8 @@
                             "created": 1555388736290,
                             "text": "Collection 接口",
                             "priority": null,
-                            "progress": null
+                            "progress": null,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -494,7 +580,8 @@
                             "created": 1555389280699,
                             "text": "Map 接口",
                             "priority": null,
-                            "progress": null
+                            "progress": null,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -553,7 +640,8 @@
                 "data": {
                     "id": "bsjs0du37r40",
                     "created": 1552219838958,
-                    "text": "IO"
+                    "text": "IO",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {

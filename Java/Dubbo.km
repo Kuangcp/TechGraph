@@ -1,0 +1,13 @@
+{
+    "root": {
+        "data": {
+            "id": "c37lum5qwow0",
+            "created": 1591201483593,
+            "text": "Dubbo"
+        },
+        "children": []
+    },
+    "template": "default",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}

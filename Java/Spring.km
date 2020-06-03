@@ -1,0 +1,13 @@
+{
+    "root": {
+        "data": {
+            "id": "c37lxtrkgn40",
+            "created": 1591201735243,
+            "text": "Spring"
+        },
+        "children": []
+    },
+    "template": "default",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}
