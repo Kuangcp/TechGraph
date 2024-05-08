@@ -6,5 +6,5 @@
 ## 致谢
 > [Github: 百度脑图](https://github.com/fex-team/kityminder)  
 > [Github: 百度脑图离线客户端](https://github.com/NaoTu/DesktopNaotu)  
-> vscode-mindmap 插件 `没有压缩JSON 这个好评 方便Git管理，减小仓库体积`  
+> vscode-mindmap 插件 `没有压缩JSON 这个好评 方便Git管理，减小仓库体积`  [插件地址](https://marketplace.visualstudio.com/items?itemName=eightHundreds.vscode-mindmap&ssr=false#review-details)
 > plantUML 插件
